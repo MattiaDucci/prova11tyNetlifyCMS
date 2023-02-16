@@ -10,7 +10,7 @@ collections:
     label: "Posts"
     create: true
     folder: "posts/"
-    slug: "{{year}}-{{month}}-{{day}}-{slug}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
           label: "Layout",
